@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ほどきや フランチャイズオーナー募集（制作見本）</title>
+<meta name="description" content="架空の美容と健康のサロン「ほどきや」のフランチャイズオーナー募集LPの制作見本です。">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#f7f3ef">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="img/hero.jpg" fetchpriority="high">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('motion');
+</script>
+<style>
+
+:root{
+  --paper:#f7f3ef;
+  --white:#ffffff;
+  --ink:#2a2226;
+  --sub:#665b60;
+  --line:#e2d8d4;
+  --green:#5e3a4c;
+  --green-deep:#45293a;
+  --green-mist:#f0e6e9;
+  --ochre:#9a7636;
+  --ochre-deep:#795c27;
+  --blush:#efdfd8;
+  --mincho:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --gothic:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--paper);-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font:400 16px/1.9 var(--gothic);font-feature-settings:"palt";letter-spacing:.03em}
+a:focus-visible{outline:3px solid var(--ochre);outline-offset:3px}
+.nb{display:inline-block}
+main{overflow-x:clip}
+
+.sample{padding:6px 16px;font-size:12px;line-height:1.6;color:var(--sub);background:var(--green-mist)}
+
+
+.fv{position:relative;background:var(--paper)}
+.frame{position:relative;margin-top:-8vw;aspect-ratio:1/1;overflow:hidden;background:var(--green-mist)}
+.frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:80% 50%}
+
+.frame::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(to bottom,var(--paper) 0%,rgba(247,243,239,0) 26%),linear-gradient(to top,var(--paper),transparent 16%)}
+h1{position:relative;z-index:1;padding:8vw 12px 0 16px;font-family:var(--mincho);font-weight:800;line-height:1.15;color:var(--ink)}
+h1 .lead-in{display:block;font-size:4.3vw;white-space:nowrap;font-weight:600;letter-spacing:.06em;color:var(--green)}
+h1 em{display:block;margin-top:3vw;font-style:normal}
+
+h1 .em1{display:block;font-size:15.6vw;letter-spacing:-.02em;white-space:nowrap}
+h1 .em2{display:block;margin-top:1.4vw;font-size:6vw;letter-spacing:.04em;white-space:nowrap}
+.ch{display:inline-block}
+.motion .ch{animation:chIn .8s cubic-bezier(.2,.7,.2,1) both}
+@keyframes chIn{from{opacity:0;transform:translateY(.25em);filter:blur(4px)}to{opacity:1;transform:none;filter:none}}
+
+.fv-text{position:relative;z-index:1;padding:0 16px 44px;margin-top:-24px}
+.who{font-size:15px;font-weight:700;color:var(--green)}
+.sub{margin-top:6px;font-size:16px;line-height:1.9}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px;list-style:none}
+.badges li{padding:4px 12px;border:1px solid var(--line);border-radius:4px;background:var(--white);font-size:14px;line-height:1.6}
+.btn{display:block;margin-top:22px;padding:16px 18px;border-radius:6px;background:var(--ochre);color:#fff;text-align:center;text-decoration:none;font-weight:700;font-size:17px;line-height:1.5;
+  position:relative;overflow:hidden;box-shadow:0 3px 0 var(--ochre-deep);transition:background .2s,transform .1s,box-shadow .1s}
+.btn small{display:block;font-size:13px;font-weight:500;opacity:.92}
+.btn:hover{background:var(--ochre-deep)}
+.btn:active{transform:translateY(3px);box-shadow:0 0 0 var(--ochre-deep)}
+
+.motion .btn::after{content:"";position:absolute;top:0;bottom:0;left:-40%;width:30%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.28),transparent);animation:shine 6s ease-in-out 3.6s infinite}
+@keyframes shine{0%{left:-40%}18%,100%{left:120%}}
+.btn-ghost{display:block;margin-top:12px;padding:14px 18px;border:1.5px solid var(--green);border-radius:6px;color:var(--green);text-align:center;text-decoration:none;font-weight:700;font-size:16px;line-height:1.5;background:transparent}
+.btn-ghost:hover{background:var(--green-mist)}
+.btn-ghost small{display:block;font-size:13px;font-weight:500}
+
+
+section{padding:76px 16px}
+h2{font-family:var(--mincho);font-weight:800;font-size:26px;line-height:1.5;letter-spacing:.04em}
+h3{font-size:18px;font-weight:700;line-height:1.6}
+.lead{margin-top:14px;max-width:36em}
+.note{font-size:13px;line-height:1.8;color:var(--sub)}
+.tint{background:var(--green-mist)}
+.white{background:var(--white)}
+
+
+.motion .rv{opacity:0;transform:translateY(12px);transition:opacity .7s ease,transform .7s ease}
+.motion .rv.in{opacity:1;transform:none}
+
+
+.question{padding-block:120px;text-align:center}
+.question p{font-family:var(--mincho);font-weight:800;font-size:7vw;line-height:1.7}
+.question .small{display:block;margin-bottom:12px;font-family:var(--gothic);font-size:15px;font-weight:500;color:var(--sub)}
+.question .then{display:block;margin-top:28px;font-family:var(--gothic);font-size:15px;font-weight:500;line-height:1.9;color:var(--sub)}
+
+
+.menu{list-style:none;margin-top:28px;border-top:1px solid var(--ink)}
+.menu li{display:grid;grid-template-columns:7.5em 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.menu b{font-family:var(--mincho);font-weight:800;font-size:17px;line-height:1.6}
+.menu span{font-size:15px;line-height:1.8;color:var(--sub)}
+.repeat{margin-top:26px;padding:18px 18px 16px;background:var(--white);border-left:3px solid var(--green)}
+.repeat strong{font-family:var(--mincho);font-weight:800;font-size:30px;line-height:1.2;color:var(--green)}
+.repeat p{font-size:15px}
+.repeat{display:flex;align-items:center;gap:18px}
+
+.donut{flex:none;position:relative;width:104px;height:104px;border-radius:50%;
+  background:conic-gradient(var(--ochre) 0 var(--p),#efe6d6 var(--p) 100%)}
+@property --p{syntax:"<percentage>";inherits:false;initial-value:70%}
+.donut::before{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--white)}
+.donut span{position:absolute;inset:0;display:flex;align-items:baseline;justify-content:center;padding-top:34px;font-family:var(--mincho);font-weight:800;font-size:34px;line-height:1;color:var(--ochre-deep)}
+.donut small{font-size:15px;margin-left:2px}
+.motion .repeat.in .donut{animation:donutIn 1.2s cubic-bezier(.2,.7,.2,1) both}
+@keyframes donutIn{from{--p:0%}to{--p:70%}}
+
+
+
+.photo-sec{padding-top:0}
+.photo-head{position:relative;margin:0 -16px;min-height:600px;display:flex;align-items:flex-end;overflow:hidden;background:var(--green-mist)}
+.photo-head img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:84% 40%}
+.photo-head::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(to top,var(--paper) 20%,rgba(247,243,239,.85) 34%,rgba(247,243,239,0) 52%)}
+.photo-copy{position:relative;z-index:1;padding:0 16px 6px}
+.photo-tag{display:inline-block;margin-bottom:10px;padding:3px 10px;background:var(--green);color:#fff;font-size:13px;font-weight:700;letter-spacing:.04em}
+.plans{margin-top:30px;display:grid;gap:18px}
+.plan{padding:22px 18px 18px;background:var(--white);border-top:4px solid var(--green)}
+.plan.own{border-top-color:var(--ochre)}
+.plan h3{font-family:var(--mincho);font-weight:800;font-size:21px}
+.plan .for{margin-top:6px;font-size:14px;color:var(--sub)}
+.plan dl{margin-top:14px}
+.plan dt{margin-top:12px;font-size:14px;font-weight:700}
+.plan dd{font-size:15px;line-height:1.8}
+.plan dd+dd{margin-top:2px}
+.plan dd::before{content:"・"}
+.plan dt.hard{color:var(--ochre-deep)}
+
+
+.money-wrap{margin-top:30px;display:grid;gap:22px}
+.ledger{padding:22px 18px 18px;background:var(--white)}
+.ledger h3{font-family:var(--mincho);font-weight:800;font-size:19px;padding-bottom:10px;border-bottom:1px solid var(--ink)}
+.ledger table{width:100%;border-collapse:collapse;margin-top:4px}
+.ledger th,.ledger td{padding:10px 0;border-bottom:1px dotted var(--line);font-size:15px;line-height:1.6;vertical-align:baseline}
+.ledger th{text-align:left;font-weight:500}
+.ledger th small{display:block;font-size:12px;color:var(--sub);font-weight:400}
+.ledger td{text-align:right;font-family:var(--mincho);font-weight:600;font-size:17px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ledger tr.sum th,.ledger tr.sum td{border-bottom:none;border-top:1px solid var(--ink);padding-top:12px}
+.ledger tr.sum th{font-weight:700}
+.ledger tr.sum td{font-size:22px;font-weight:800}
+.ledger .note{margin-top:10px}
+
+.camp{margin-top:14px;padding:12px 14px;background:#f6efe1;border:1px solid #e3d2ad;border-radius:4px}
+.camp-tag{display:inline-block;margin-bottom:6px;padding:2px 8px;background:var(--ochre);color:#fff;font-size:12px;font-weight:700;line-height:1.7;border-radius:3px}
+.camp p{font-size:14px;line-height:1.7}
+.camp b{display:block;font-size:15px}
+.camp em{font-style:normal;color:var(--ochre-deep);font-family:var(--mincho);font-weight:800;font-size:20px;margin-left:4px}
+.camp strong{font-family:var(--mincho);font-weight:800;font-size:17px;color:var(--ochre-deep)}
+.premise{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.premise li{padding:2px 10px;border-radius:4px;background:var(--green-mist);font-size:13px;line-height:1.7}
+.ledger.model{border:2px solid var(--green)}
+.ledger.model .left td{color:var(--ochre-deep);font-size:30px}
+.caveat{margin-top:14px;padding:12px 14px;background:var(--blush);font-size:14px;line-height:1.8}
+
+
+.vows{margin-top:30px;display:grid;gap:18px}
+.vow h3{font-family:var(--mincho);font-weight:800;font-size:20px;padding-bottom:8px;border-bottom:2px solid var(--green)}
+.vow.not h3{border-bottom-color:var(--ink)}
+.vow ul{list-style:none}
+.vow li{padding:14px 0;border-bottom:1px solid var(--line);font-size:15px;line-height:1.8}
+.vow li b{display:block;font-size:16px}
+.vow.not li b{color:var(--ink)}
+.vow.not h3{border-bottom-color:var(--line)}
+
+.vow.not{margin-top:14px;padding:22px 18px 6px;background:var(--white);border-radius:4px}
+.vow.not li:last-child{border-bottom:0}
+
+
+.voices{list-style:none;margin:28px -10px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.voices li{display:flex;flex-direction:column;padding:14px 9px 12px;background:var(--white);border-radius:4px}
+.voices b{font-family:var(--mincho);font-size:15px;line-height:1.45;font-weight:800}
+.voices p{flex:1;margin-top:8px;font-size:12px;line-height:1.7}
+.voices li>span{display:block;margin-top:10px;padding-top:8px;border-top:1px solid var(--line);font-size:11px;line-height:1.6;color:var(--sub)}
+.voices+.note{margin-top:14px}
+
+
+.founder{margin-top:26px;display:grid;gap:18px}
+.founder img{display:block;width:72%;max-width:340px;height:auto;aspect-ratio:4/5;object-fit:cover;background:var(--green-mist)}
+.founder blockquote p{font-size:16px;line-height:2}
+.founder blockquote p+p{margin-top:12px}
+.founder cite{display:block;margin-top:16px;font-style:normal;font-weight:700}
+.founder cite small{display:block;font-size:13px;font-weight:400;color:var(--sub)}
+
+
+.flow{list-style:none;margin-top:28px;counter-reset:step}
+.flow li{position:relative;padding:0 0 22px 46px;counter-increment:step}
+.flow li::before{content:counter(step);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;border:1.5px solid var(--green);background:var(--paper);color:var(--green);
+  font:800 16px/29px var(--mincho);text-align:center}
+.flow li::after{content:"";position:absolute;left:15px;top:36px;bottom:2px;width:1.5px;background:var(--line)}
+.flow li:last-child::after{display:none}
+.flow h3{font-size:17px}
+.flow p{margin-top:2px;font-size:14px;color:var(--sub)}
+.flow+.note{margin-top:10px}
+
+
+.qa{margin-top:16px}
+.qa div{padding:20px 0;border-bottom:1px solid var(--line)}
+.qa h3{font-size:16px;padding-left:1.6em;text-indent:-1.6em}
+.qa h3 .nb{text-indent:0}
+.qa h3::before{content:"Q.";margin-right:6px;font-family:var(--mincho);font-weight:800;color:var(--ochre-deep)}
+.qa p{margin-top:6px;font-size:15px;color:var(--sub)}
+
+
+.last{text-align:center;padding-bottom:88px;background:var(--green);color:#fff}
+.last h2{font-size:28px}
+.last .lead{margin-inline:auto;color:#efe4e8}
+.last .btn,.last .btn-ghost{max-width:420px;margin-inline:auto}
+.last .btn{margin-top:28px}
+.last .btn-ghost{border-color:#fff;color:#fff}
+.last .btn-ghost:hover{background:rgba(255,255,255,.1)}
+.last .note{margin-top:16px;color:#dccbd2}
+
+
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:5;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(247,243,239,.95);
+  border-top:1px solid var(--line);transform:translateY(110%);transition:transform .3s ease}
+.dock.show{transform:none}
+.dock .btn{margin-top:0;padding:12px 16px;font-size:16px}
+
+footer{padding:28px 16px 96px;font-size:12px;line-height:1.8;color:var(--sub)}
+
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.dock{transition:none}.btn:active{transform:none}}
+
+@media (min-width:900px){
+  .sample{padding-inline:6vw}
+  .fv{min-height:min(50vw,calc(100vh - 34px))}
+  .frame{position:absolute;inset:0;margin:0;aspect-ratio:auto}
+  .frame img{object-position:75% 45%}
+  .frame::after{background:linear-gradient(to right,rgba(247,243,239,.97) 0%,rgba(247,243,239,.88) 36%,rgba(247,243,239,0) 60%),linear-gradient(to top,var(--paper),transparent 10%)}
+  h1{padding:9vh 0 0 6vw}
+  h1 .lead-in{font-size:1.7vw}
+  h1 em{margin-top:1.6vw}
+  h1 .em1{font-size:7.2vw}
+  h1 .em2{margin-top:.6vw;font-size:2.7vw}
+  .fv-text{margin:0;padding:3vh 0 8vh 6vw;max-width:44vw}
+  .sub{font-size:17px}
+  .btn,.btn-ghost{max-width:440px}
+  section{padding:110px 6vw}
+  .wrap{max-width:1040px;margin-inline:auto}
+  h2{font-size:36px}
+  .question{padding-block:150px}
+  .question p{font-size:38px}
+  .split{display:grid;grid-template-columns:5fr 7fr;column-gap:6vw;align-items:start}
+  .menu{margin-top:0}
+  .repeat{border-left:0;padding:22px 24px}
+  .photo-head{margin:0 -6vw;min-height:560px;align-items:center}
+  .photo-head img{object-position:center 40%}
+  .photo-head::after{background:linear-gradient(to right,rgba(247,243,239,.96) 0%,rgba(247,243,239,.86) 30%,rgba(247,243,239,0) 52%),linear-gradient(to top,var(--paper),transparent 14%)}
+  .photo-copy{width:100%;padding:0 0 0 6vw;margin:0}
+  .photo-copy h2,.photo-copy .lead{max-width:30vw}
+  .plans{grid-template-columns:1fr 1fr;gap:28px}
+  .plan{padding:30px 30px 26px}
+  .money-wrap{grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+  .ledger{padding:28px 30px 24px}
+  .ledger.model{grid-column:1 / -1;display:grid;grid-template-columns:5fr 6fr;column-gap:40px}
+  .ledger.model h3,.ledger.model .premise,.ledger.model .head-note,.ledger.model .caveat{grid-column:1}
+  .ledger.model table{grid-column:2;grid-row:1 / span 4}
+  .ledger.model{grid-template-rows:auto auto auto 1fr;align-items:start}
+  .ledger.model .caveat{grid-row:4}
+  .vows{grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+  .vow.not{margin-top:0}
+  .voices{margin-inline:0;gap:20px}
+  .voices li{padding:24px 22px 20px}
+  .voices b{font-size:20px}
+  .voices p{font-size:15px}
+  .voices li>span{font-size:13px}
+  .founder{grid-template-columns:340px 1fr;gap:56px;align-items:center}
+  .founder img{width:100%}
+  .flow{display:grid;grid-template-columns:repeat(7,1fr);column-gap:16px}
+  .flow li{padding:46px 0 0}
+  .flow+.note{margin-top:22px}
+  .flow li::after{left:38px;right:-12px;top:15px;bottom:auto;width:auto;height:1.5px}
+  .qa{display:grid;grid-template-columns:1fr 1fr;column-gap:48px;margin-top:0}
+  .last h2{font-size:38px}
+  .dock{display:none}
+  footer{padding-inline:6vw;padding-bottom:40px}
+}
+</style>
+</head>
+<body>
+<p class="sample">SAMPLE｜デザイン工房 Nob が制作した見本です</p>
+
+<main>
+<div class="fv" id="top">
+  <h1 aria-label="数字も、大変なところも、先にお見せします。納得してから始める、サロンのフランチャイズ"><span class="lead-in">数字も、大変なところも、先にお見せします</span><em><span class="em1">納得してから</span><span class="em2">始める、サロンのフランチャイズ</span></em></h1>
+  <script>
+  (function () {
+    if (!document.documentElement.classList.contains('motion')) return;
+    var h1 = document.querySelector('h1');
+    var delay = .3;
+    function split(el, step) {
+      var text = el.textContent;
+      el.textContent = '';
+      Array.from(text).forEach(function (c) {
+        var s = document.createElement('span');
+        s.className = 'ch';
+        s.setAttribute('aria-hidden', 'true');
+        s.textContent = c;
+        s.style.animationDelay = delay.toFixed(2) + 's';
+        el.appendChild(s);
+        delay += step;
+      });
+    }
+    // 前置きはさらっと、「納得してから」は1文字ずつゆっくり、ひと呼吸おいて「始めるサロンのフランチャイズ」。全体で約3.3秒
+    split(h1.querySelector('.lead-in'), .035);
+    delay += .2;
+    split(h1.querySelector('.em1'), .2);
+    delay += .3;
+    split(h1.querySelector('.em2'), .06);
+  })();
+  </script>
+  <div class="frame"><img src="img/hero.jpg" width="1024" height="637" alt="落ち着いた個室のサロンで、ベッドのタオルを整えるオーナー" fetchpriority="high"></div>
+  <div class="fv-text">
+    <p class="who">サロンの開業を考えている方へ</p>
+    <p class="sub">美容と健康のサロン「ほどきや」の<span class="nb">加盟店オーナー募集です。</span><br>開業にかかるお金も、毎月かかるお金も、<br>内訳と前提をこのページに載せました。</p>
+    <ul class="badges">
+      <li>資料請求は無料</li>
+      <li>説明会はオンラインで60分</li>
+      <li>未経験から約1か月の研修</li>
+    </ul>
+    <a class="btn" id="fv-btn" href="#start">開業の資料を受け取る（無料）<small>メールでPDFが届きます。お電話はしません</small></a>
+  </div>
+</div>
+
+<section class="question">
+  <p class="rv"><span class="small">自分のサロンを持ちたい。でも、</span><span class="nb">開業したあと、</span><span class="nb">本当に続けられるだろうか</span><span class="then">すぐに決めなくて大丈夫です。<br>決めるための材料を、このページに並べました。</span></p>
+</section>
+
+<section class="white">
+  <div class="wrap split">
+    <div>
+      <h2 class="rv"><span class="nb">仕事帰りに、</span><span class="nb">ほっとひと息つける</span><span class="nb">サロンです</span></h2>
+      <p class="lead rv">ほどきやは、40〜60代の女性を中心に、「自分のための時間がほしい」「いつまでもきれいでいたい」という方が、仕事帰りや家事の合間に通うサロンです。</p>
+    </div>
+    <div>
+      <ul class="menu rv">
+        <li><b>ボディケア</b><span>肩や背中をもみほぐし、ゆっくり過ごす60分</span></li>
+        <li><b>ヘッドスパ</b><span>頭と首まわりをほぐす、静かな時間</span></li>
+        <li><b>温活ケア</b><span>足元から温まりながら、くつろぐひととき</span></li>
+        <li><b>フェイシャル</b><span>保湿を中心に、肌をととのえるお手入れ</span></li>
+      </ul>
+      <div class="repeat rv"><div class="donut" role="img" aria-label="7割"><span>7<small>割</small></span></div><p>直営3店で、初めて来た方のうち回数券で通いはじめた方の割合です（2025年）。通ってくださる方が、お店を支えます。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="photo-sec">
+  <div class="photo-head">
+    <img src="img/training.jpg" width="1600" height="894" alt="直営店の研修で、講師が研修生に施術の手の置き方を教えている様子" loading="lazy">
+    <div class="photo-copy wrap">
+      <p class="photo-tag rv">未経験から、直営店で約1か月の研修</p>
+      <h2 class="rv"><span class="nb">開業のしかたは、</span><span class="nb">2つから選べます</span></h2>
+      <p class="lead rv">どちらにも、よいところと大変なところがあります。両方を見てから選んでください。</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="plans">
+      <div class="plan rv">
+        <h3>経営に専念するプラン</h3>
+        <p class="for">本業や別の事業を持ちながら始めたい方、新規事業を探している法人の方に</p>
+        <dl>
+          <dt>よいところ</dt>
+          <dd>施術はスタッフに任せ、数字と人づくりに集中できます</dd>
+          <dd>2店目を考えやすい形です</dd>
+          <dt class="hard">大変なところ</dt>
+          <dd>スタッフ2人以上の採用と、毎月の人件費がかかります</dd>
+          <dd>開業資金とは別に、人件費の3か月分の備えをおすすめしています</dd>
+        </dl>
+      </div>
+      <div class="plan own rv">
+        <h3>施術もするプラン</h3>
+        <p class="for">自分の手でお客様に向き合いたい方、1人で小さく始めたい方に</p>
+        <dl>
+          <dt>よいところ</dt>
+          <dd>人件費がかからず、手元に残るお金が多くなります</dd>
+          <dd>営業日と時間を、自分で決められます</dd>
+          <dt class="hard">大変なところ</dt>
+          <dd>体力を使います。1日6人なら施術はおよそ6時間、準備・片付け・予約の対応を入れると、お店にいるのは10時間ほどです</dd>
+          <dd>休んだ日は、売上も止まります</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tint" id="money">
+  <div class="wrap">
+    <h2 class="rv"><span class="nb">お金のことを、</span><span class="nb">先にお見せします</span></h2>
+    <p class="lead rv">本部に払うお金と、本部には払わないけれど必要になるお金を、分けて載せました。金額は税込です（保証金は非課税）。経営に専念するプランの収支モデルと、契約の主な条件は、資料に載せています。</p>
+    <div class="money-wrap">
+      <div class="ledger rv">
+        <h3>開業にかかるお金</h3>
+        <table>
+          <tr><th>加盟金</th><td>1,100,000円</td></tr>
+          <tr><th>研修費<small>約1か月。交通費・宿泊費はご本人の負担です</small></th><td>330,000円</td></tr>
+          <tr><th>保証金<small>契約が終わるとき、未払い分を差し引いてお返しします</small></th><td>300,000円</td></tr>
+          <tr><th>機器・備品<small>ベッド2台・タオル・棚など</small></th><td>880,000円</td></tr>
+          <tr><th>内装<small>約10坪の場合</small></th><td>1,000,000円〜</td></tr>
+          <tr><th>物件の取得<small>敷金・仲介手数料など。本部には払いません</small></th><td>500,000円〜</td></tr>
+          <tr class="sum"><th>合計の目安</th><td>4,110,000円〜</td></tr>
+        </table>
+        <p class="note">内装と物件の取得は、場所と広さで変わります。</p>
+      </div>
+      <div class="ledger rv">
+        <h3>毎月、本部に払うお金</h3>
+        <div class="camp"><span class="camp-tag">開業応援</span><p><b><span class="nb">開業から12か月は、</span><span class="nb">ロイヤリティ<em>20%OFF</em></span></b><span class="nb">月55,000円 → <strong>44,000円</strong></span><span class="nb">（13か月目からは55,000円）</span></p></div>
+        <table>
+          <tr><th>ロイヤリティ<small>売上にかかわらず定額。開業から12か月は44,000円</small></th><td>55,000円</td></tr>
+          <tr><th>予約・会計システム</th><td>11,000円</td></tr>
+          <tr><th>広告分担金</th><td>0円</td></tr>
+          <tr class="sum"><th>本部に払う合計</th><td>66,000円</td></tr>
+        </table>
+        <p class="note">本部には払わないけれど必要になるお金：家賃、材料・消耗品、水道光熱・通信、広告・予約サイトの掲載料、保険・洗濯など。スタッフを雇うときは人件費。人件費のほかは、下の収支モデルに入れています（人件費を入れたモデルは資料に載せています）。</p>
+      </div>
+      <div class="ledger model rv">
+        <h3>収支モデル（施術もするプラン・1か月）</h3>
+        <ul class="premise">
+          <li>オーナー1人で施術</li>
+          <li>ベッド2台・約10坪</li>
+          <li>客単価 6,000円</li>
+          <li>1日6人</li>
+          <li>月22日営業</li>
+          <li>家賃 120,000円</li>
+        </ul>
+        <p class="note head-note" style="margin-top:12px">1日6人は、直営3店の2025年の、施術者1人あたりの平均（1日6.8人）より少なめに置いた数です。ベッド2台は、1台で施術しているあいだに、もう1台を次のお客様のために整えておくためです。</p>
+        <table>
+          <tr><th>売上<small>6,000円 × 6人 × 22日</small></th><td>792,000円</td></tr>
+          <tr><th>家賃</th><td>−120,000円</td></tr>
+          <tr><th>ロイヤリティ・システム<small>通常の額で計算（開業から12か月は−55,000円）</small></th><td>−66,000円</td></tr>
+          <tr><th>材料・消耗品</th><td>−40,000円</td></tr>
+          <tr><th>水道光熱・通信</th><td>−33,000円</td></tr>
+          <tr><th>広告・予約サイトの掲載</th><td>−60,000円</td></tr>
+          <tr><th>保険・洗濯など</th><td>−28,000円</td></tr>
+          <tr class="sum left"><th>手元に残るお金<small>税金・借入の返済の前</small></th><td>445,000円</td></tr>
+        </table>
+        <p class="caveat">これはモデル収益で、収益を約束するものではありません。実際の数字は、場所・家賃・営業日で変わります。開業から1〜3か月目は、1日2〜4人のことが多くあります。1日2人の月は売上が264,000円で、費用（347,000円）を下回ります。開業資金とは別に、半年分の生活費と運転資金（目安は約150万円）を備えてください。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="rv"><span class="nb">わたしたちが</span><span class="nb">約束すること</span></h2>
+    <div class="vows">
+      <div class="vow rv">
+        <h3>約束すること</h3>
+        <ul>
+          <li><b>研修は、合格するまで何度でも</b>直営店で約1か月。施術・接客・お金の管理まで。研修費の追加はいただきません（交通費・宿泊費はご本人の負担です）。</li>
+          <li><b>開業から3か月は、月2回お店に伺います</b>担当が、予約の入り方や接客を一緒に見直します。</li>
+          <li><b>売上が落ちたときは、数字を一緒に見ます</b>メニューや集客の見直しを、担当と考えます。</li>
+          <li><b>半径2km以内に、ほどきやを新しく出しません</b></li>
+        </ul>
+      </div>
+      <div class="vow not rv">
+        <h3><span class="nb">先にお伝えしたい、</span><span class="nb">約束できないこと</span></h3>
+        <ul>
+          <li><b>売上や収益の保証はできません</b>そのかわり、開業前にあなたのお店の条件で、収支を一緒に試算します。</li>
+          <li><b>損失の補償はできません</b>そのかわり、開業後も毎月の数字を一緒に見直します。</li>
+          <li><b>お客様をこちらからご紹介することはできません</b>そのかわり、集客のやり方を研修と開業後の訪問でお伝えします。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap">
+    <h2 class="rv"><span class="nb">開業した、</span><span class="nb">オーナーの声</span></h2>
+    <ul class="voices rv">
+      <li><b><span class="nb">会社員から</span><span class="nb">研修1か月で</span></b><p>施術は初めて。直営店でお客様役を交代しながら、1か月で手順を覚えました。</p><span>46歳・元メーカー勤務・施術もするプラン</span></li>
+      <li><b><span class="nb">前提まで</span><span class="nb">聞けたから</span></b><p>収支の前提を一つずつ聞けたので、家族にも数字で説明できました。</p><span>52歳・早期退職・経営に専念するプラン</span></li>
+      <li><b><span class="nb">休みは</span><span class="nb">自分で決める</span></b><p>週2日は休みに。最初の3か月は1日3人ほどで、正直あせりました。</p><span>41歳・子育て中・施術もするプラン</span></li>
+    </ul>
+    <p class="note">オーナーの声は個人の体験です。収益や結果を約束するものではありません。</p>
+  </div>
+</section>
+
+<section class="white">
+  <div class="wrap">
+    <h2 class="rv"><span class="nb">代表から、</span><span class="nb">開業を考えている方へ</span></h2>
+    <div class="founder rv">
+      <img src="img/founder.jpg" width="825" height="1024" alt="サロンの受付に立つ、ほどきや代表の森井澄江" loading="lazy">
+      <blockquote>
+        <p>私は、リラクゼーションサロンの受付から始めて、18年この仕事をしています。自分の店を持ったとき、いちばん怖かったのは、聞いていなかったお金でした。</p>
+        <p>だから、ほどきやは、数字も大変なところも先にお見せします。説明会のあとの面談で、私か担当が、あなたの町の家賃で試算を一緒に作ります。続けられると思えたときに、決めてください。</p>
+        <cite>森井 澄江<small>株式会社ほどきや 代表</small></cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2 class="rv"><span class="nb">資料請求から、</span><span class="nb">開業まで</span></h2>
+    <ol class="flow">
+      <li class="rv"><h3>資料を受け取る</h3><p>メールでPDFが届きます。</p></li>
+      <li class="rv"><h3><span class="nb">オンライン</span><span class="nb">説明会</span></h3><p>60分。顔を出さずに参加できます。</p></li>
+      <li class="rv"><h3>直営店の見学</h3><p>施術を受けて、お店の1日を見られます。</p></li>
+      <li class="rv"><h3>面談と試算</h3><p>あなたの町の家賃で、収支を一緒に試算します。</p></li>
+      <li class="rv"><h3>ご契約</h3><p>契約書は、事前にお渡しして読んでいただきます。</p></li>
+      <li class="rv"><h3>研修</h3><p>直営店で約1か月。施術から、お金の管理まで。</p></li>
+      <li class="rv"><h3>開業</h3><p>開業から3か月は、月2回お店に伺います。</p></li>
+    </ol>
+    <p class="note rv">資料請求から開業までの目安は、4〜6か月です。途中でやめても、費用はかかりません（ご契約の前まで）。</p>
+  </div>
+</section>
+
+<section class="tint">
+  <div class="wrap split">
+    <h2 class="rv"><span class="nb">資料を請求する前に、</span><span class="nb">気になること</span></h2>
+    <div class="qa">
+      <div class="rv"><h3><span class="nb">資料を請求したら、</span><span class="nb">電話がかかってきますか？</span></h3><p>いいえ。資料はメールでお送りします。お電話は、あなたが希望したときだけです。</p></div>
+      <div class="rv"><h3><span class="nb">施術の資格がなくても、</span><span class="nb">開業できますか？</span></h3><p>できます。ほどきやのメニューは、あん摩マッサージ指圧などの国家資格を使う施術ではなく、リラクゼーションのボディケア（もみほぐし）やヘッドスパです。医療のような施術や、効果を約束する言い方はしていません。</p></div>
+      <div class="rv"><h3><span class="nb">会社に勤めながら</span><span class="nb">始められますか？</span></h3><p>経営に専念するプランなら、店長を置いて始められます。開業から半年は、週に1日以上お店に入ることをおすすめしています。</p></div>
+      <div class="rv"><h3><span class="nb">ロイヤリティは、</span><span class="nb">売上で変わりますか？</span></h3><p>変わりません。月55,000円の定額です（開業から12か月は20%OFFの44,000円）。広告分担金はいただきません。</p></div>
+      <div class="rv"><h3><span class="nb">スタッフが</span><span class="nb">辞めてしまったら？</span></h3><p>本部が求人の出し方をお手伝いし、新しいスタッフの研修を直営店で行います（研修費は1人55,000円）。</p></div>
+      <div class="rv"><h3><span class="nb">途中でやめるとき、</span><span class="nb">違約金はかかりますか？</span></h3><p>契約は5年です。途中で解約するときは、ロイヤリティの6か月分（330,000円）を違約金としていただきます。</p></div>
+      <div class="rv"><h3><span class="nb">収支モデルの数字は、</span><span class="nb">本当のお店の数字ですか？</span></h3><p>はい。直営3店の2025年の実績をもとにしています。前提は、収支モデルの上に載せています。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="last" id="start">
+  <h2 class="rv"><span class="nb">まずは、</span><span class="nb">数字を手元に</span></h2>
+  <p class="lead rv">資料には、開業費用の内訳、2つのプランの収支モデル、<span class="nb">契約の主な条件を載せています。</span></p>
+  <a class="btn rv" id="last-btn" href="#start">開業の資料を受け取る（無料）<small>メールでPDFが届きます。お電話はしません</small></a>
+  <a class="btn-ghost rv" href="#start">オンライン説明会を予約する<small>日時を選べます。顔を出さずに参加できます</small></a>
+  <p class="note">資料請求の入力は、お名前とメールアドレスだけです。</p>
+  <p class="note">制作見本のため、ボタンに移動先はありません。</p>
+</section>
+</main>
+
+<div class="dock" aria-hidden="true"><a class="btn" href="#start" tabindex="-1">開業の資料を受け取る（無料）<small>メールでPDFが届きます。お電話はしません</small></a></div>
+
+<footer>
+  <p>株式会社ほどきや　フランチャイズ本部</p>
+  <p>制作見本です。会社名・数値・人物はすべて架空です。</p>
+  <p>画像は画像生成AIで作成したイメージです。</p>
+  <p>制作：デザイン工房 Nob</p>
+</footer>
+
+<script>
+(function () {
+  var els = document.querySelectorAll('.rv');
+  if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, {rootMargin: '0px 0px -8% 0px'});
+  els.forEach(function (e) { io.observe(e); });
+
+  // 固定ボタン：FVと最後のボタンが画面にある間は隠す
+  var dock = document.querySelector('.dock');
+  var seen = new Set();
+  var io2 = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) seen.add(e.target); else seen.delete(e.target); });
+    dock.classList.toggle('show', seen.size === 0);
+  });
+  io2.observe(document.getElementById('top'));
+  io2.observe(document.getElementById('last-btn'));
+})();
+</script>
+</body>
+</html>
